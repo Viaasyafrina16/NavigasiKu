@@ -29,3 +29,9 @@ import com.example.navigasiku.R
 fun TampilData(
     onBackClick:()-> Unit
 ){
+    val items = listOf(
+        Pair(first = stringResource(id = R.string.nama_lengkap), second = "Contoh Nama"),
+        Pair(first = stringResource(id = R.string.jenis_kelamin), second = "Lainnya"),
+        Pair(first = stringResource(id = R.string.alamat), second = "Yogyakarta")
+    )
+}
