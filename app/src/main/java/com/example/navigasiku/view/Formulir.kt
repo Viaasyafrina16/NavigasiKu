@@ -39,7 +39,7 @@ fun FormIsian(
             value = "",
             singleLine =  true,
             modifier = Modifier
-                .
+                .padding(top = 20)
         )
     }
 
